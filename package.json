@@ -1,0 +1,21 @@
+{
+  "name": "movietvapp",
+  "version": "1.0.0",
+  "description": "Movie App built with HTML, SCSS & Vanilla JavaScript that loads a list of movies/tv shows by genre and also allows an user to search for a movie/tv show.",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.6.0",
+    "path-browserify": "^1.0.1",
+    "postcss-preset-env": "^7.7.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
